@@ -25,7 +25,7 @@ export class User {
     @Column({ default: false })
     admin: boolean;
 
-    @Column({ length: 120 })
+    @Column({ length: 10 })
     password: string;
 
     @CreateDateColumn({ type: "date" })
